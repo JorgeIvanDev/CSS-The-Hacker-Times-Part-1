@@ -42,19 +42,20 @@ nav {
     position: sticky;
     top: 0;
     background: white;
+    
 }
 
-nav ul {
+ ul {
     list-style: none;
     margin: 0;
 }
 
-nav li {
+ li {
     display: inline-block;
     padding: 0 0.2em;
 }
 
-nav a {
+ a {
     font-size: 0.8em;
     color: #777;
 }
@@ -76,14 +77,17 @@ main img {
 
 .more-articles {
     border-top: 1px solid #eee;
-    margin: top 1.5em;
-    text-align: center;
+    margin: auto;
+
+    width: 300px;
+    display: inline-block;
 }
 
 .more-articles section {
     display: inline-block;
-    width: 48%;
-    margin: 0 1em;
+    width: 300px;
+    margin: auto;
+    padding: 1.4em;
 }
 
 .more-articles img {
@@ -93,4 +97,16 @@ main img {
 .more-articles h4 {
     font-family: 'Robo slab', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: left;
+}
+section {
+    display: inline-block;
+    width: 300px;
+    margin: auto;
+    padding: 1.4em;
+    border: 1px solid black;
+}
+
+footer a{
+    padding: 2em;
+    margin: 2em;
 }
